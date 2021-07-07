@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcd1ae33-ffaf-4e7e-94ca-8fa9853260d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hxl/algorithm/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hxl/algorithm/testLongestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hxl/algorithm/TestAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hxl/algorithm/TestAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +29,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\developTools\maven\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../developTools/maven/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="E:\developTools\maven\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="localRepository" value="S:\MavenProjects\repository" />
+        <option name="mavenHome" value="S:/developer_tools/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="S:\developer_tools\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -65,10 +61,23 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.TestAlgorithm">
+  <component name="RunManager" selected="Application.testLongestPalindrome">
     <configuration name="TestAlgorithm" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.hxl.algorithm.TestAlgorithm" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hxl.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hxl.algorithm.testLongestPalindrome" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -123,10 +132,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestAlgorithm" />
+      <item itemvalue="Application.testLongestPalindrome" />
       <item itemvalue="Maven.TestAlgorithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testLongestPalindrome" />
         <item itemvalue="Application.TestAlgorithm" />
       </list>
     </recent_temporary>
@@ -142,6 +153,8 @@
       <workItem from="1623383292416" duration="1430000" />
       <workItem from="1624237623061" duration="2814000" />
       <workItem from="1625659696486" duration="2069000" />
+      <workItem from="1625695285094" duration="1097000" />
+      <workItem from="1625696406916" duration="48000" />
     </task>
     <servers />
   </component>
@@ -158,6 +171,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaProject$TestAlgorithm.ic" NAME="TestAlgorithm Coverage Results" MODIFIED="1625661193744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
